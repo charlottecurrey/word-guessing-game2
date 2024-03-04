@@ -1,0 +1,107 @@
+*{
+    background-image: "background.webp";
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(background.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.main{
+    width: 650px;
+    border: 3px solid antiquewhite;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    border-color: antiquewhite;
+}
+
+.main h1{
+    font-size: 30px;
+    padding: 20px 25px;
+    border-bottom: 3px solid antiquewhite;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.main .instructions{
+    margin: 25px 25px 35px;
+    color: darkblue;;
+    font-weight: 600;
+    
+}
+
+.main .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: antiquewhite;
+    color: antiquewhite;
+}
+
+.inputs input{
+    height: 55px;
+    width: 55px;
+    margin: 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.reset-button{
+    width: 50%;
+    padding: 10px 0;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+.submit-button{
+    width: 50%;
+    padding: 10px 0;
+    margin-left: 160px;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+
+.win-message{
+    text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timer, .correct-word{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.score{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:darkblue;
+    font-weight: bolder;
+    font-size: 20px;
+}

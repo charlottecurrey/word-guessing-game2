@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Guess the Word</h1>
+        <h3 class="score">Score:</h3>
+        <p class="timer"></p>
+        <p class="timeout-message"></p>
+        <div class="inputs" id="input-container"></div>
+        <h3 class="correct-word">Answer:</h3>
+        <button class="submit-button" onclick="checkGuess()">Submit Guess</button>
+        <div class="instructions">
+            <p class="hint">Hint:</p>
+            <p class="remaining">Remaining Guesses:</p>
+            <p class="wrong">Wrong Letters:</p>
+            <div class="win-message"></div>
+        </div>
+        <button class="reset-button">Reset Game</button>
+    </div>
+    
+    <script src="words.js"></script>
+    <script src="wordSearch.js"></script>
+
+</body>
+</html>
